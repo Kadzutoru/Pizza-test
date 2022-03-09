@@ -1,0 +1,136 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #e5e5e5;
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #111111;
+  /*font-family: 'Oswald', sans-serif;*/
+}
+.container {
+  max-width: 1190px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+  color: #f12c0e;
+  font-size: 60px;
+  font-family: "Oswald", sans-serif;
+}
+.logo {
+  width: 64px;
+  height: 32px;
+}
+.header {
+  background-color: #fff;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-center;
+  padding: 24px 20px;
+}
+.menu__list {
+  display: flex;
+}
+.menu__list-link {
+  padding: 10px 20px;
+  color: #111111;
+}
+.menu__list :hover {
+  color: #f05510;
+}
+.title__menu {
+  margin-top: 57px;
+}
+.menu__text p {
+  max-width: 793px;
+  text-align: center;
+  margin: 20px auto;
+  font-style: italic;
+}
+.title__store {
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  margin: 20px 0 0 0;
+}
+.store__text {
+  margin: 20px 0 0 0;
+  font-style: italic;
+  width: 220px;
+  height: 51px;
+}
+.price {
+  color: #f12c0e;
+  width: 220px;
+  height: 21px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin: 20px 0 20px 0;
+}
+.button__add {
+  text-transform: uppercase;
+  padding: 10px 30px;
+  background-color: #e5e5e5;
+  font-size: 14px;
+  color: #111111;
+  width: 154px;
+  height: 42px;
+}
+.store__item {
+  max-width: 555px;
+  max-height: 309px;
+  background-color: #fff;
+  padding: 30px 30px;
+  display: flex;
+  margin: 15px 15px;
+}
+.images__pizza {
+  width: 255px;
+  height: 249px;
+}
+.item__1 {
+  padding: 0 25px;
+}
+.store__flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.info {
+  text-align: center;
+  margin: 22px auto 57px;
+}
+.freepik {
+  color: #f05510;
+  font-weight: bold;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  padding: 50px 0px;
+}
+.footer__text {
+  text-align: center;
+  margin: 0 auto;
+  width: 417px;
+}
+.section__bottom {
+  background-color: #333;
+  color: #fff;
+  font-size: 12.8px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.section__info {
+  color: #f9b99c;
+  text-decoration: underline;
+}
